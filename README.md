@@ -16,7 +16,12 @@ Conceptually looks a quite good to work with bigger data.
 
 # Concept
 
-The concept you've developed with `go-streamx` is an extension of the iterator pattern in Go. It provides a **functional, pipeline-based approach** to handle streams of data, enabling operations such as **mapping**, **filtering**, **batching**, and **flattening** of data in a **lazy** and **efficient** manner. This approach is well-suited for processing large datasets, where you need to perform operations like transformation or validation without loading everything into memory at once.
+`go-streamx` is an extension of the iterator pattern in Go.
+
+It provides a **functional, pipeline-based approach** to handle streams of data, 
+enabling operations such as **mapping**, **filtering**, **batching**, and **flattening** of data in a **lazy** and **efficient** manner. 
+
+This approach is well-suited for processing large datasets, where you need to perform operations like transformation or validation without loading everything into memory at once.
 
 ### Key Concepts in `go-streamx`
 
