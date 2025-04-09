@@ -143,6 +143,10 @@ func main() {
 	stream0 := SliceToStream([]int{1, 2, 3, 4, 5, 6, 7, 8, 9})
 
 	myIntPipeline := Pipeline[int](
+		Tap(func(input int) any {
+			fmt.Println(input)
+			return nil
+		}),
 		Filter(func(input int) bool {
 			return input > 3
 		}),
